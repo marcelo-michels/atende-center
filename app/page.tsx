@@ -44,7 +44,7 @@ export default function Home() {
               Gestão de cobranças e agendamentos via WhatsApp para profissionais liberais e pequenas empresas.
             </p>
             {/* <Button size="lg" className="bg-white text-blue-700 hover:bg-blue-50 font-bold text-lg px-8 py-6">
-              Comece Agora - Grátis por 30 Dias!
+              Comece Agora - Grátis por 30 Dias!+55 46 99920-2345
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button> */}
           </div>
@@ -83,10 +83,10 @@ export default function Home() {
               gestão de assinaturas e agendamentos diretamente pelo WhatsApp, para que você foque no que realmente
               importa: atender seus clientes!
             </p>
-            <Button variant="outline" className="text-blue-600 border-blue-600 hover:bg-blue-50">
+            {/* <Button variant="outline" className="text-blue-600 border-blue-600 hover:bg-blue-50">
               Veja como funciona
               <ChevronRight className="ml-2 h-5 w-5" />
-            </Button>
+            </Button> */}
           </div>
 
           <div className="grid md:grid-cols-2 gap-10 items-center">
@@ -308,10 +308,12 @@ export default function Home() {
             <p className="text-lg text-gray-700 mb-8">
               Quer ver como funciona? Clique abaixo para testar o chatbot agora mesmo!
             </p>
-            <Button size="lg" className="bg-green-500 hover:bg-green-600 text-white font-bold">
-              <MessageCircle className="mr-2 h-5 w-5" />
-              Teste o Chatbot Agora
-            </Button>
+            <a href="https://wa.me/5546999202345?text=Ol%C3%A1%20gostaria%20de%20ver%20a%20automa%C3%A7%C3%A3o%20em%20funcionamento" target="_blank" rel="noopener noreferrer">
+              <Button size="lg" className="bg-green-500 hover:bg-green-600 text-white font-bold">
+                <MessageCircle className="mr-2 h-5 w-5" />
+                Teste o Chatbot Agora
+              </Button>
+            </a>
 
             <div className="mt-12 relative">
               <Image
@@ -557,6 +559,32 @@ export default function Home() {
           </div>
         </div>
       </section> */}
+
+
+      {/* Seção de Contratação */}
+      <section className="w-full py-20 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="text-3xl md:text-4xl font-bold text-blue-800 mb-6">
+              Pronto para Transformar seu Negócio?
+            </h2>
+            <p className="text-lg text-gray-700 mb-8">
+              Clique abaixo e fale diretamente com nossa equipe para começar sua jornada de sucesso.
+            </p>
+            <a 
+              href="https://wa.me/5546999727256?text=Olá,%20tenho%20interesse%20em%20contratar%20o%20Atende%20Center" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-block"
+            >
+              <Button size="lg" className="bg-green-500 hover:bg-green-600 text-white font-bold text-lg px-8 py-6">
+                <MessageCircle className="mr-2 h-6 w-6" />
+                Quero Contratar
+              </Button>
+            </a>
+          </div>
+        </div>
+      </section>
 
       {/* Footer */}
       <footer className="w-full bg-blue-900 text-white py-12">
