@@ -14,7 +14,7 @@ export default function Home() {
           <div className="flex items-center">
             <h1 className="text-2xl font-bold text-white">Atende Center</h1>
           </div>
-          <nav className="hidden md:flex space-x-6">
+          {/* <nav className="hidden md:flex space-x-6">
             <a href="#" className="text-white hover:text-blue-100">
               Início
             </a>
@@ -33,7 +33,7 @@ export default function Home() {
             className="hidden md:flex bg-transparent text-white border-white hover:bg-white hover:text-blue-700"
           >
             Entrar
-          </Button>
+          </Button> */}
         </header>
         <div className="container mx-auto px-4 pt-8 pb-20 md:py-24 flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-10 md:mb-0">
